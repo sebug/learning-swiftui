@@ -12,7 +12,7 @@ struct LandmarkDetail: View {
         VStack {
             MapView()
                 .frame(height: 300)
-            CircleImage()
+            CircleImage(image: Image("turtlerock"))
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
