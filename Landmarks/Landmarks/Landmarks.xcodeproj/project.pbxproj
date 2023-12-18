@@ -89,6 +89,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		EBB4D9F02B30614100FBF38C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA1B2A2B305BCB00E99C45 /* Landmark.swift */,
+				EBEA1B2C2B305D9500E99C45 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EBEA1AEE2B304CA600E99C45 = {
 			isa = PBXGroup;
 			children = (
@@ -112,13 +121,12 @@
 		EBEA1AF92B304CA600E99C45 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				EBB4D9F02B30614100FBF38C /* Model */,
 				EBB4D9EF2B3060C000FBF38C /* Resources */,
 				EBEA1AFA2B304CA600E99C45 /* LandmarksApp.swift */,
 				EBEA1B2E2B30608B00E99C45 /* Views */,
 				EBEA1AFE2B304CA700E99C45 /* Assets.xcassets */,
 				EBEA1B002B304CA700E99C45 /* Preview Content */,
-				EBEA1B2A2B305BCB00E99C45 /* Landmark.swift */,
-				EBEA1B2C2B305D9500E99C45 /* ModelData.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
