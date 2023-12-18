@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 struct LandmarkDetail: View {
     var body: some View {
         VStack {
-            MapView()
+            MapView(coordinate:  CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
                 .frame(height: 300)
             CircleImage(image: Image("turtlerock"))
                 .offset(y: -130)
