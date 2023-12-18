@@ -12,7 +12,7 @@ struct LandmarkDetail: View {
     var landmark: Landmark
     
     var body: some View {
-        VStack {
+        ScrollView {
             MapView(coordinate:  landmark.locationCoordinate)
                 .frame(height: 300)
             CircleImage(image: landmark.image)
@@ -36,8 +36,6 @@ struct LandmarkDetail: View {
                     .font(.title2)
                 Text(landmark.description)
             }.padding()
-            
-            Spacer()
         }
     }
 }
