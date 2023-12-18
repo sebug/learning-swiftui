@@ -116,6 +116,17 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		EBB4DA032B308AAD00FBF38C /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				EBB4D9FB2B30769900FBF38C /* BadgeBackground.swift */,
+				EBB4D9FD2B30884400FBF38C /* BadgeSymbol.swift */,
+				EBB4D9FF2B3088BD00FBF38C /* RotatedBadgeSymbol.swift */,
+				EBB4DA012B30890700FBF38C /* Badge.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		EBEA1AEE2B304CA600E99C45 = {
 			isa = PBXGroup;
 			children = (
@@ -185,10 +196,7 @@
 				EBB4D9F52B30665900FBF38C /* LandmarkDetail.swift */,
 				EBB4D9F72B30719A00FBF38C /* FavoriteButton.swift */,
 				EBB4D9F92B3075C100FBF38C /* HexagonParameters.swift */,
-				EBB4D9FB2B30769900FBF38C /* BadgeBackground.swift */,
-				EBB4D9FD2B30884400FBF38C /* BadgeSymbol.swift */,
-				EBB4D9FF2B3088BD00FBF38C /* RotatedBadgeSymbol.swift */,
-				EBB4DA012B30890700FBF38C /* Badge.swift */,
+				EBB4DA032B308AAD00FBF38C /* Badges */,
 			);
 			path = Views;
 			sourceTree = "<group>";
